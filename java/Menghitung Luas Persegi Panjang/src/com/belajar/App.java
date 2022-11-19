@@ -8,26 +8,28 @@ public class App {
 
     // Menghitung luas persegi panjang
 
-    // buat scanner input
-    Scanner input = new Scanner(System.in);
+    // membuat scanner
+    Scanner inputUser = new Scanner(System.in);
 
-    // deklarasi variable
+    // deklarasi variabel
     int panjang, lebar, hasil;
+
+    System.out.println(" ====== Menghitung Luas Persegi Panjang ===== ");
 
     // input
     System.out.print("Masukkan panjang: ");
-    panjang = input.nextInt();
+    panjang = inputUser.nextInt();
 
     System.out.print("Masukkan lebar: ");
-    lebar = input.nextInt();
+    lebar = inputUser.nextInt();
 
     // proses
     hasil = panjang * lebar;
 
-    // output
-    System.out.println("Hasil = " + hasil);
+    // output / keluaran
+    System.out.printf("Luas = %d", hasil);
 
-    input.close();
+    inputUser.close();
 
   }
 
