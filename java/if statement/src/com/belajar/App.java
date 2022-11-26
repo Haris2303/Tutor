@@ -26,7 +26,7 @@ public class App {
      * jika nilai yang didapatkan > 70 maka tampilkan nilai C
      * selain itu tampilkan nilai D
      */
-
+    
     //  char char1 = 'A';
 
     //  if(char1 == 'A') {
