@@ -1,0 +1,42 @@
+body {
+  background-color: #eee;
+}
+
+h1:hover {
+  color: red;
+  font-style: italic;
+  font-size: 50px;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+.link2:active {
+  color: green;
+}
+
+.link3:visited {
+  color: yellow;
+}
+
+ul li:nth-child(3n - 1) {
+  color: blueviolet;
+}
+
+ul li:first-child {
+  color: salmon;
+}
+
+ul li:last-child {
+  color: green;
+}
+
+p:first-of-type {
+  color: red;
+}
+
+p:last-of-type {
+  color: blue;
+}

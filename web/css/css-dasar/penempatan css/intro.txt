@@ -1,0 +1,6 @@
+bagaimana menempatkan css?
+
+3 cara:
+  1. embed => <style></style>
+  2. inline => berada di elemen html <h1 style=""> </h1>
+  3. internal / external => <link rel="stylesheet" href="file css">

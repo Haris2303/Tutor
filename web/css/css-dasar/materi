@@ -1,0 +1,86 @@
+# Font CSS
+
+- color => mengubah warna font
+
+- font-size => mengatur ukuran font
+
+- font-family => mengubah jenis font
+
+- font-weight => mengubah ketebalan font
+
+- font-style => mengubah gaya font
+
+
+# Text CSS
+
+- text-align => mengatur posisi text
+
+- text-indent => mengatur jarak dari baris baru
+
+- text-transform => capital or lowercase
+
+- text-decoration => menambahkan garis pada text atau menghilangka garis
+
+
+# Background css
+
+- background-color => mengatur warna pada background
+
+- background-image => mengatur gambar yang akan digunakan pada background
+
+- background-position => mengatur posisi gambar pada background
+
+- background-repeat => mengatur jenis pengulangan gambar pada background
+
+- background-size => mengatur ukuran gambar
+
+
+# Selector css
+
+- element html => dengan mengetikkan elemen html yang ingin di styling, contoh h1{}, p{}, dll
+
+- separator => untuk mengenali sebuah elemen lebih spesifik, contoh h1, h2, h3{} atau ul li a{}
+
+- id => dengan mengetikkan tanda pagar(#) dan diiringi dengan nama id-nya, contoh #namaID
+
+- class => dengan mengetikkan tanda titik(.) dan diiringi dengan nama class-nya, contoh .namaclass
+
+
+
+# Pseudo class
+
+- :link => style default pada sebuah link (a yang memiliki href)
+
+- :hover => ubah style ketika kursor mouse berada di sebuah elemen
+
+- :active => style ketika link di-klik (keadaan aktif)
+
+- :visited => style ketika sebuah link sudah pernah dikunjungi
+
+- :first-child => memilih elemen pertama dari sebuah parent
+
+- :last-child => memilih elemen terakhir dari sebuah parent
+
+- :nth-child(n) => memilih elemen ke-n dari sebuah parent. n bisa berarti urutan (1), (2), ... 
+		   atau pola (2n), (3n + 2), (3n - 1) atau ganjil(even) dan genap(odd)
+		   
+- :first-of-type => memilih elemen pertama dari sebuah tipe tag
+
+- :last-of-type => memilih elemen akhir dari sebuah tipe tag
+
+
+
+# Specificity
+
+setiap deklarasi css (selector) memiliki berat yang berbeda. Berat tersebut mennetukkan seberapa spesifik sebuah elemen dapat dipilih oleh selector
+
+perhitungan seperti ini => kita mempunyai 4 digit 0 (0 0 0 0)
+elemen = 0 0 0 1
+class = 0 0 1 0
+id = 0 1 0 0
+inline = 1 0 0 0
+
+jika kita adu seperti ini:
+id vs class = id
+class vs elemen = class
+id vs elemen = id

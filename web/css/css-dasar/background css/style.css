@@ -1,0 +1,12 @@
+body {
+  background-color: lightblue;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+
+h1 {
+  text-align: center;
+  background-color: aquamarine;
+}
