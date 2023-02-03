@@ -3,10 +3,10 @@ body {
   background-image: url(image.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: top;
+  background-position: top bottom;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   background-color: aquamarine;
-}
+} */

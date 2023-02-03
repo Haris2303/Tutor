@@ -62,7 +62,7 @@
 - :last-child => memilih elemen terakhir dari sebuah parent
 
 - :nth-child(n) => memilih elemen ke-n dari sebuah parent. n bisa berarti urutan (1), (2), ... 
-		   atau pola (2n), (3n + 2), (3n - 1) atau ganjil(even) dan genap(odd)
+		   atau pola (2n), (3n + 2), (3n - 1) atau ganjil(odd) dan genap(even)
 		   
 - :first-of-type => memilih elemen pertama dari sebuah tipe tag
 
