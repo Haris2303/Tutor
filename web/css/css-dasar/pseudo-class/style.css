@@ -40,3 +40,32 @@ p:first-of-type {
 p:last-of-type {
   color: blue;
 }
+
+
+/* styling table */
+table {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table tr:nth-child(2n) {
+  background-color: azure;
+}
+
+table tr:first-child {
+  color: red;
+  background-color: aqua;
+}
+
+table tr:last-child {
+  color: white;
+  background-color: #333;
+}
+
+table tr td:first-child {
+  background-color: yellow;
+}
